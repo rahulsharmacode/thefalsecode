@@ -1,0 +1,142 @@
+
+
+
+.servicemap{
+    padding: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+
+}
+
+.servicemap .card{
+    height: 220px;
+    width: 300px;
+    margin: 15px;
+    background-color: orange;
+    color: white;
+    border-radius: .3rem;
+    box-shadow: .1rem .1rem .20rem black;
+
+}
+
+
+.servicemap .card img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+    cursor: pointer;
+    margin-bottom: 2px;
+    /* transform: scale(); */
+
+
+}
+
+.servicemap .card img:hover {
+/* transform: scale(1.05); */
+overflow: hidden;
+
+
+}
+
+
+.card p {
+    padding: .3rem;
+}
+
+.card button {
+    margin-left: .5rem;
+    padding: .1rem .3rem;
+    border-radius: .1rem;
+    background-color: orange;
+    color: white;
+    border: .1rem solid white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    margin-left: .5rem;
+    padding: .1rem .3rem;
+    border-radius: .1rem;
+    background-color: white ;
+    color: orange ;
+    border: .1rem solid white;
+}
+
+
+
+/* --------------- Servicemap2 ---------------*/
+
+.services_title{
+    text-align: center;
+    margin-top: 2rem;
+    color: orange;
+}
+
+
+
+.servicemap2{
+    padding: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+
+.servicemap2 .card2{
+    height: 220px;
+    width: 300px;
+    margin: 15px;
+    color: black;
+    border-radius: .3rem;
+
+}
+
+
+.servicemap2 .card2 .innerCard i{
+color: orange;
+margin: .5rem .1rem;
+    font-size: 4rem;
+
+}
+
+
+.card2 button {
+    background-color: transparent;
+    margin-top: 1rem;
+    border-radius: .1rem;
+    color: black;
+    border: transparent;
+    cursor: pointer;
+}
+
+.card2 button:hover {
+   
+    border-radius: .1rem;
+    color: orange ;
+    
+}
+
+
+@media (max-width:600px) {
+
+    
+.servicemap2 .card2{
+    height: 220px;
+    width: 100%;
+    margin: 2.5rem 0rem;
+    color: black;
+    border-radius: .3rem;
+
+}
+
+.services_title{ 
+    font-size: 1.5rem;
+}
+    
+}

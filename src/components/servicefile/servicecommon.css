@@ -1,0 +1,31 @@
+.servicecommon {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.servicecommon img{
+    height: 30rem;
+    width: 100%;
+}
+
+.servicecommon h1{
+    margin: 2rem 1rem;
+}
+
+.servicecommon p{
+    padding: 0rem 1rem;
+}
+
+
+@media (max-width:600px) {
+
+    .servicecommon{
+        margin-top: -140px;
+    }
+    .servicecommon img{
+        height: 20rem;
+    }
+    
+}

@@ -1,0 +1,69 @@
+
+@media (max-width:600px) {
+    .home{
+        margin-top: -135px;
+       
+    }
+
+    .hero{
+        width: 100%;
+        text-align: center;
+        /* padding: 0px 20px; */
+    }
+    
+}
+
+
+/* ------------ Home --------------*/
+
+.home{
+
+
+}
+
+.hero{
+    background-image: url('https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .btnSection{
+    margin-top: 1rem;
+}
+
+.hero button{
+    margin: .2rem;
+    padding: .5rem 1.5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+
+
+}
+.hero .btn1{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+
+}
+
+.hero .btn1:hover{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    transition: 0.3s ease-in;
+
+}
+
+.hero .btn2{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    transition: 0.3s ease-in;
+
+}

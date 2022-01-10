@@ -1,0 +1,59 @@
+.contact h2{
+text-align: center;
+margin: 20px 0px;
+}
+
+.contactform{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 8rem;
+}
+
+
+.contactform input {
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: transparent;
+
+    border-bottom: 2px solid orange;
+    background-color: transparent;
+    outline: 0;
+
+}
+
+textarea{
+    padding: 40px 6px;
+    width: 300px;
+    border: transparent;
+
+    border-bottom: 2px solid orange;
+    background-color: transparent;
+    outline: 0;
+
+}
+
+.contactform input[type='submit']{
+    width: 100px;
+    margin-top: 5px;
+    border: 2px solid orange;
+    border-radius: 3px;
+    color: orange;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+.contactform input[type='submit']:hover{
+    width: 100px;
+    margin-top: 5px;
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px black;
+    transition: 0.3s ease-in;
+
+}

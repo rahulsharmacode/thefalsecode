@@ -1,0 +1,71 @@
+/* body{
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.footer{
+    background-color: orange;
+    color: black;
+    /* display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden; 
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    overflow: hidden; 
+    padding: 20px;
+    column-gap: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+
+.footer .nav_item{
+    color: black;
+
+}
+
+.footer h2{
+    margin-bottom: 10px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+.active{
+    border-bottom:  1px solid white;
+}
+
+
+.footer input {
+    overflow: hidden;
+}
+
+.footer .basicInfo p {
+    margin-bottom: 10px;
+}
+
+.footer .sub i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:600px) {
+
+    .footer{
+        margin-bottom: -85px;
+    }
+} */

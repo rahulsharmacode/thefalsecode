@@ -1,0 +1,27 @@
+
+.clienthead{
+    text-align: center;
+margin: 1rem 0rem;
+color: orange;
+
+
+}
+
+.client .cilentlogo{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    justify-content: center;   
+    opacity: 0.5; 
+   
+}
+
+.client img{
+    height: 100px;
+    width: 100px;
+}
+
+.client .logo{
+    margin: 10px;
+    width: fit-content;
+    
+}

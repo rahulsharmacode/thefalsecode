@@ -1,0 +1,167 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: "Readex Pro", sans-serif;
+  position: relative;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+}
+
+.navbar .navMenu {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navMenu .nav_item {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: black;
+  padding: 1rem 1.5rem;
+}
+
+.navMenu .nav_item:hover {
+  background-color: whitesmoke;
+  color: orange;
+  border-radius: 0.3rem;
+
+}
+
+.nav_item {
+  text-decoration: none;
+}
+
+/*--------------------------------*/
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .hamMenu {
+    display: none;
+  }
+
+  html {
+    font-size: 80%;
+  }
+  .navbar {
+    font-weight: bolder;
+  }
+}
+
+/*-------------Ham Menu-------------------*/
+
+.hamMenu {
+  padding: 3rem;
+  height: 3.3rem;
+}
+
+.hamMenu input {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: relative;
+  z-index: 6;
+  opacity: 0;
+  cursor: pointer;
+}
+.hamLine {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 3rem;
+  z-index: 5;
+}
+
+.hamLine .line {
+  width: 100%;
+  height: 0.4rem;
+  background-color: orange;
+  border-radius: 0.3rem;
+}
+
+.subMenu {
+  /* border: 1rem solid black; */
+  margin-top: 2.5rem;
+  border-bottom-right-radius: 10rem;
+}
+
+.subMenu li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  padding-bottom: 2.5rem;
+}
+
+.subMenu .nav_item {
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.subMenu .nav_item:hover {
+  color: orange;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+
+.subMenu {
+  transform: translateX(-100%);
+}
+.hamMenu input[type="checkbox"]:checked ~ .subMenu {
+  display: block;
+  background-color: orange;
+  margin-top: -6.7rem;
+  margin-left: -3.5rem;
+  margin-right: -7rem;
+  padding-left: 2rem;
+  padding-top: 8rem;
+  transform: translateX(0%);
+  transition: 0.5s ease-out;
+}
+
+.hamMenu .hamLine .line1 {
+  transform-origin: 0% 0%;
+}
+
+.hamMenu .hamLine .line3 {
+  transform-origin: -25% 0%;
+}
+
+.hamMenu input[type="checkbox"]:checked ~ .hamLine .line1 {
+  transform: rotate(45deg);
+  transition: 0.5s ease-in;
+  background-color: white;
+}
+.hamMenu input[type="checkbox"]:checked ~ .hamLine .line2 {
+  display: none;
+  transition: 0.5s ease-in;
+}
+
+.hamMenu input[type="checkbox"]:checked ~ .hamLine .line3 {
+  transform: rotate(-45deg);
+  transition: 0.5s ease-in;
+  background-color: white;
+}
