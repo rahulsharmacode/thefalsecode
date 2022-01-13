@@ -1,25 +1,28 @@
 
 @media (max-width:600px) {
     .home{
-        margin-top: -135px;
+    
        
     }
 
     .hero{
         width: 100%;
         text-align: center;
+        height: 150px;
         /* padding: 0px 20px; */
     }
     
 }
 
+@media (min-width:600px) {
+   .home {
+    margin-top: 4.5rem;
+    }
+}
+
 
 /* ------------ Home --------------*/
 
-.home{
-
-
-}
 
 .hero{
     background-image: url('https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg');

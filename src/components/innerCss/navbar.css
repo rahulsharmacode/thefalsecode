@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   background-color: whitesmoke;
   font-family: "Readex Pro", sans-serif;
-  position: relative;
+  /* position: relative; */
   height: 100vh;
   /* overflow: hidden; */
 }
@@ -19,8 +19,13 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 5rem;
+  height: 4.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }
+
 
 .navbar .navMenu {
   color: #fff;
@@ -34,6 +39,27 @@ html {
   padding: 1rem 1.5rem;
 }
 
+.navMenu .nav_item.contact{
+  background-color: rgb(47, 47, 177);
+  border-radius: 2.5rem;
+  color: white;
+  padding: .9rem 1.5rem;
+ 
+  
+
+}
+.navMenu .nav_item.contact i{
+  margin-left: .3rem;
+}
+.navMenu .nav_item.contact:hover{
+  background-color: rgb(38, 38, 165);
+  border-radius: 2.5rem;
+  color: white;
+  
+
+}
+
+
 .navMenu .nav_item:hover {
   background-color: whitesmoke;
   color: orange;
@@ -44,6 +70,7 @@ html {
 .nav_item {
   text-decoration: none;
 }
+
 
 /*--------------------------------*/
 @media (max-width: 600px) {
@@ -74,13 +101,16 @@ html {
 .hamMenu {
   padding: 3rem;
   height: 3.3rem;
+  position: fixed;
+  top:0 ;
+  width: 100%;
 }
 
 .hamMenu input {
   width: 3.2rem;
   height: 3.2rem;
   position: relative;
-  z-index: 6;
+  z-index: 100;
   opacity: 0;
   cursor: pointer;
 }

@@ -16,7 +16,7 @@ const Navbar = () => {
            <NavLink to='/products' className='nav_item'>Products</NavLink>
            <NavLink to='/services' className='nav_item'>Services</NavLink>
            <NavLink to='/about' className='nav_item'>About</NavLink>
-           <NavLink to='/contact' className='nav_item'>Contact</NavLink>
+           <NavLink to='/contact' className='nav_item contact'>GET STARTED<i class="fas fa-chevron-circle-right"></i></NavLink>
         </div>
 
 

@@ -1,0 +1,65 @@
+
+.services{
+    background: rgb(47, 47, 177);
+    height: 50vh;
+    color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 4rem;
+z-index: 10;
+margin-top: 4.5rem;
+}
+
+
+.services .serviceshead{
+    margin-bottom: 1.5rem;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.services h4{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.services p{ 
+    font-size: 1.5rem;
+    width: 60vw;
+}
+
+.servman{
+    height: 200px;
+    position: absolute;
+    right: 6rem;
+    top: 22rem;
+    z-index: 4;
+    
+}
+
+@media (max-width:600px) {
+    .services{
+        margin-top: 0px;
+        padding: 1rem;
+       
+    }
+
+    .services .serviceshead{
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    .services p{ 
+        margin: 0%;
+        padding: 0%;
+        font-size: 1rem;
+        width: 100%
+    }
+    
+    .servman{
+display: none;
+        
+    }
+
+    
+}

@@ -1,10 +1,13 @@
 import React from 'react'
+import './Productfile/product.css'
 
 const Products = () => {
     return (
-        <div>
-
+        <> 
+        <div className='product'>
+        I am product
         </div>
+        </>
     )
 }
 

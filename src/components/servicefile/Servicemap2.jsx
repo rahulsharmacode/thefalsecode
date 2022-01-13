@@ -25,7 +25,7 @@ let navigate = useNavigate()
                         <i class={val.icon}></i>
                         </div>
                         <div className='innerBlock'> 
-                            <h3>{val.title}</h3>
+                            <h2>{val.title}</h2>
                             <p>{val.discription}</p>
                             
                             <button onClick={()=>{navigate(`/services/${val.id}`)}}>Read More...</button>

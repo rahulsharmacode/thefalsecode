@@ -1,72 +1,90 @@
-
-
+/* --------------- Servicemap 1.0 ---------------*/
 
 .servicemap{
-    padding: 30px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-
-
+margin: 5rem;
 }
+
 
 .servicemap .card{
-    height: 220px;
-    width: 300px;
-    margin: 15px;
-    background-color: orange;
-    color: white;
-    border-radius: .3rem;
-    box-shadow: .1rem .1rem .20rem black;
-
-}
-
-
-.servicemap .card img {
-    height: 150px;
     width: 100%;
-    border-top-left-radius: .3rem;
-    border-top-right-radius: .3rem;
-    cursor: pointer;
-    margin-bottom: 2px;
-    /* transform: scale(); */
 
-
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.servicemap .card img:hover {
-/* transform: scale(1.05); */
-overflow: hidden;
-
-
+.servicemap .card img{
+    height: 22rem;
+    width: 100%;
+    padding: 1rem;
 }
 
+.servicemap .Sblock{
+    width: 90vw;
+    
+}
 
-.card p {
-    padding: .3rem;
+.servicemap .Sblock p {
+    font-size: 2rem;
 }
 
 .card button {
-    margin-left: .5rem;
-    padding: .1rem .3rem;
-    border-radius: .1rem;
-    background-color: orange;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    background-color: rgb(65, 190, 65);
     color: white;
-    border: .1rem solid white;
+    border: none;
     cursor: pointer;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+
 }
 
-.card button:hover {
-    margin-left: .5rem;
-    padding: .1rem .3rem;
-    border-radius: .1rem;
-    background-color: white ;
-    color: orange ;
-    border: .1rem solid white;
+.card button i  {
+   margin: 3px;
+
+    
+}
+.card i:hover {
+
+    transform: translateX(3px);
+    transition: 0.3s ease-in;
+
 }
 
 
+@media (max-width:600px) {
 
+html p {
+    font-size: 1.1rem;
+}
+
+    .servicemap{
+    margin: 1px;
+}
+
+
+.servicemap .card{
+
+    display: grid;
+    grid-template-columns: 0fr;
+ 
+}
+
+.servicemap .card h1{
+font-variant: small-caps;
+}
+.servicemap .card .Sblock p{
+
+}
+
+.servicemap .card .Sblock h1,p,button{
+    margin-left: 10px;
+
+}
+
+}
 /* --------------- Servicemap2 ---------------*/
 
 .services_title{
@@ -91,10 +109,9 @@ overflow: hidden;
 .servicemap2 .card2{
     height: 220px;
     width: 300px;
-    margin: 15px;
+    margin-bottom: 12rem;
     color: black;
     border-radius: .3rem;
-
 }
 
 
@@ -125,18 +142,79 @@ margin: .5rem .1rem;
 
 @media (max-width:600px) {
 
-    
-.servicemap2 .card2{
-    height: 220px;
-    width: 100%;
-    margin: 2.5rem 0rem;
-    color: black;
-    border-radius: .3rem;
 
+.servicemap2{
+
+}
+.servicemap2 .card2{
 }
 
 .services_title{ 
     font-size: 1.5rem;
 }
     
+.innerBlock p{
+    font-size: 1.1rem;
+    margin-left: 0%;
 }
+
+}
+
+/* .services_title{
+    text-align: center;
+    color: orange;
+    margin: 3rem 0rem ;
+}
+.servicemap2{
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    
+}
+
+.servicemap2 .card2{
+    margin-bottom: 3rem;
+    height: 20.0rem;
+    width: 25.0rem;
+    position: relative;
+}
+
+.servicemap2 .card2 .innerBlock h2{
+
+}
+
+.servicemap2 .card2 i {
+
+    font-size: 4rem;
+    color: orange;
+}
+
+.servicemap2 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+
+}
+.servicemap2 button:hover{
+    color: orange;
+
+}
+
+html p{
+    font-size: 1.2rem;
+    /* font-size: 62.5%; 
+   }
+
+
+@media (max-width:600px){
+
+    .servicemap2 .card2{
+        height: 22rem;
+    }
+
+    
+} */

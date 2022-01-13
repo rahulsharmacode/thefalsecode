@@ -1,6 +1,8 @@
+/* 
+
 .contact h2{
 text-align: center;
-margin: 20px 0px;
+margin-top: 6rem;
 }
 
 .contactform{
@@ -56,4 +58,113 @@ textarea{
     box-shadow: 1px 1px 3px black;
     transition: 0.3s ease-in;
 
+} */
+
+
+.contact{
+    margin-top: 4.5rem;
+}
+
+.contact h4{
+    color: rgb(65, 190, 65);
+    padding: 2rem 1rem;
+}
+
+.contact h1{
+    color: rgb(47, 47, 177);
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 0rem 1rem;
+}
+
+.contact .forms{
+    margin: 5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.contact .forms .formText{
+    font-size: 2rem;
+}
+
+.contact .forms .formText span{
+    color: rgb(47, 47, 177);
+    font-size: 1.5rem;
+}
+
+.contact .forms .formInput{
+    height: inherit;
+    width: 100%;
+}
+
+.contact input {
+    width: 40rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact textarea {
+    width: 40rem;
+    height: 6rem;
+    padding: 1.1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: none;
+
+
+}
+
+.contact input[type='submit']{
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(65, 190, 65);
+    border-radius: 2.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.contact input[type='submit']:hover{
+
+    background-color: rgb(38, 187, 38);
+
+}
+
+
+
+@media (max-width:600px){
+    .contact{
+        padding-left: 1rem ;
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+    .contact p{
+        font-size: 1.5rem;
+        width: 20rem;
+    }
+
+    .contact .forms{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: fit-content;
+
+    }
+    .contact .formInput input{
+        width: 18rem;}
+
+        .contact .formInput textarea {
+            width: 18rem;}
+
+            .contact input[type='submit']{
+                width: 6rem;
+                height: 3rem;
+                outline: none;
+ 
+            
+            }
 }

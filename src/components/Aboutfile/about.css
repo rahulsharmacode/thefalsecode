@@ -1,0 +1,55 @@
+.aboutBox{
+margin-top: 4.5rem;
+padding: 2rem;
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 3rem;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1200px-World_map_blank_without_borders.svg.png');
+background-position: 10% 0%;
+background-size: 60% 100%;
+background-position-y: 4rem;
+background-repeat: no-repeat;
+
+}
+
+.aboutBox .aboutcard {
+
+}
+
+
+.aboutBox .aboutcard h1 {
+    color: rgb(47, 47, 177);
+    font-size: 3rem;
+    
+}
+
+
+.aboutBox .aboutcard p {
+    font-size: 1.5rem;
+    
+}
+
+
+@media (max-width:600px) {
+
+    .aboutBox{
+
+grid-template-columns: repeat(1, 1fr);
+gap: 3rem;
+}
+
+
+.aboutBox .aboutcard h1 {
+    color: rgb(47, 47, 177);
+    font-size: 1.5rem;
+    
+}
+
+
+.aboutBox .aboutcard p {
+    font-size: 1.2rem;
+    display: inline-block;
+    
+}
+}

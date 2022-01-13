@@ -21,7 +21,26 @@ color: orange;
 }
 
 .client .logo{
-    margin: 10px;
+    margin: .5rem;
     width: fit-content;
+    background-color: white;
     
+}
+
+
+@media (max-width:600px){
+
+    .client .cilentlogo{
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        justify-content: center;   
+        opacity: 0.5; 
+       
+    }
+
+    .client img{
+        height: 50px;
+        width: 50px;
+    }
+
 }

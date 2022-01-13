@@ -1,9 +1,10 @@
 import React from 'react'
+import Aboutus from './Aboutfile/Aboutus'
 
 const About = () => {
     return (
         <div>
-            I am about.
+           <Aboutus/>
         </div>
     )
 }
